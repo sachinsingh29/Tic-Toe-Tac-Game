@@ -28,6 +28,7 @@ boxes.forEach((box) => {
       turnO = false;
     } else {
       box.innerText = "X";
+      box.style.color = "brown";
       turnO = true;
     }
     box.disabled = true;
